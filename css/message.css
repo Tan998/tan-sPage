@@ -1,0 +1,63 @@
+/* CSS Document */
+
+body{
+	font-family: alice;
+	
+}
+.banner {
+	background-image: url("../images/10nam1.jpg");
+	height: 1200px;
+	background-repeat: repeat-y;
+	background-size: cover;
+	
+	opacity: 70%;
+	
+}
+.noidung {
+	font-family: aladin;
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 0px 0px 15px yellow;
+	position: absolute;
+  	right: 15%;
+  	bottom: 24px;
+  	left: 15%;
+  	z-index: 10;
+  	padding-top: 20px;
+  	padding-bottom: 20px;
+  	color: #000000;
+  	text-align: center;
+}
+
+.nav-item {
+	border: 1px solid #787575;
+	border-radius: 50px;
+	background-color: #FDFDFD;
+	width: 145px;
+	text-align: center;
+}
+
+
+.icon {
+	width: 50px;
+}
+@media (min-width: 576px) {
+  .noidung {
+    font-size: 15px;
+  }
+}
+@media (max-width: 576px) {
+  .noidung {
+    font-size: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .noidung {
+    font-size: 18px;
+  }
+}
+@media (min-width: 992px) {
+  .noidung {
+    font-size: 20px;
+  }
+}

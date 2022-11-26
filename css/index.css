@@ -1,0 +1,54 @@
+/* CSS Document */
+
+body{
+	font-family: alice;
+}
+.banner {
+	background-image: url("../images/banner.jpg");
+	height: 300px;
+	font-family: aladin;
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow: 0px 10px 15px #DB5FD6;
+	
+}
+.banner ,h2  p {
+	color: #650BC8;
+}
+.icon {
+	width: 50px;
+}
+.table{
+	border: 2px solid #0037CF;
+	border-bottom-right-radius: 50px;
+}
+.btn:hover {
+	background-color: silver;
+}
+.card {
+	background-color: #E4E4E4; 
+}
+.nav-item {
+	border: 1px solid #787575;
+	border-radius: 50px;
+	background-color: #FDFDFD;
+	width: 145px;
+	text-align: center;
+}
+nav a {
+	color: black;
+}
+.row3 {
+	background-image: url("../images/lop1.jpg");
+	background-repeat: repeat;
+}
+.carousel-caption:hover{
+	opacity: 100%;
+	text-shadow: 5px 5px 15px #000;
+	
+}
+.carousel-caption {
+	opacity: 30%;
+	font-size: 18px;
+}
+
